@@ -7,6 +7,10 @@ Global Styles
     font-size: 16px;
     font-family: "Times New Roman" ;
 }
+html, body {
+    height: 100%;
+}
+
 /*End Global Styles*/
 /*Brand Menu Styles*/
 .brand-menu{
@@ -21,6 +25,54 @@ Global Styles
     color: gray;
 }
 /*End Brand Menu Styles*/
+/*Start Modal Styles*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+form{
+    margin: 28px 33%;
+
+}
+.form-element{
+    margin: 10px;
+    padding: 6px;
+    width: 300px;
+}
+/*End Modal Styles*/
 /*Navigation Menu*/
 .nav-menu-title{
     float: left;
@@ -54,3 +106,63 @@ Global Styles
     background-color: #111;
 }
 
+
+
+
+
+
+
+/*Footer Style*/
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #333333;
+    width: 100%;
+
+}
+.copyrights{
+    margin-left: 12px;
+    margin-top: 15px;
+    color: white;
+    float: left;
+
+}
+footer ul {
+    list-style: none;
+}
+footer li{
+    display: inline-block;
+}
+.social-media{
+    float: right;
+    margin: 10px;
+
+    color: white;
+}
+.social-media-links{
+}
+.social-media-links li a {
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 5px;
+}
+ .fa-facebook-square:hover{
+    color: blue;
+}
+ .fa-twitter-square:hover{
+color: aqua;
+ }
+ .fa-instagram:hover{
+color: brown;
+ }
+ .fa-youtube-square:hover{
+     color: red;
+ }
+.social-media-links li a i{
+    font-size: 24px;
+    margin: 5px;
+    color: white;
+}
+/*End Footer Style*/
