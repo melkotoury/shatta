@@ -7,8 +7,29 @@ Global Styles
     font-size: 16px;
     font-family: "Times New Roman" ;
 }
-
+/*End Global Styles*/
+/*Brand Menu Styles*/
+.brand-menu{
+    max-height: 90px;
+}
+.brand-menu img{
+    height: 95px;
+}
+.login{
+    float: right;
+    margin: 35px;
+    color: gray;
+}
+/*End Brand Menu Styles*/
 /*Navigation Menu*/
+.nav-menu-title{
+    float: left;
+    position: absolute;
+    margin: 14px;
+    color: white;
+    font-size: 1.3em;
+    font-family: sans-serif;
+}
 .nav-menu{
 
 }
@@ -17,6 +38,7 @@ Global Styles
     overflow: hidden;
     background-color: #333;
 }
+
 .menu-list li {
     float: right;
 }
@@ -31,3 +53,4 @@ Global Styles
 .menu-list li a:hover{
     background-color: #111;
 }
+
