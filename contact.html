@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <!--Shatta's Style-->
     <link rel="stylesheet" href="css/style.css">
+
+    <!--Contact Styles-->
+    <link rel="stylesheet" href="css/contact.css">
+    <!--Contact Script-->
+    <script src="js/contact.js"></script>
 </head>
 <body>
 <!--Start Header Section-->
@@ -28,23 +33,34 @@
             <li><a href="#">Alumni</a></li>
             <li><a href="#">News & Research</a></li>
             <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="#">Contacts</a></li>
+            <li><a href="contact.html">Contacts</a></li>
 
         </ul>
     </nav>
     <!--End Navigation Section-->
 </header>
 <!--End Header Section-->
-<!--Hero Section-->
-<div class="hero">
-    <div class="welcome-video">
-        <iframe width="420" height="315" src="https://www.youtube.com/embed/PzdDNL6zxko" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="welcome-text">
-        <h3>Welcome to<span> Shatta University</span></h3>
-    </div>
-</div>
-<!--End Hero Section-->
+<!--End of Header -->
+<body onLoad="document.registration.userid.focus();">
+<h1>Contact Shatta University</h1>
+<form name='registration' onSubmit="return shattaValidation();" method="post" action="mailto:shatta@shattauni.org">
+    <ul>
+        <li>
+            <label for="fname">First name:</label></li>
+        <li><input type="text" name="fname" size="50" placeholder="i.e: John" id="fname"/></li>
+        <li><label for="lname">Last name:</label></li>
+        <li><input type="text" name="lname" size="50" placeholder="i.e: Smith" id="lname"/></li>
+        <li><label for="address">Address:</label></li>
+        <li><input type="text" name="address" size="50" placeholder="i.e: 6 October Egypt"  id="address"/></li>
+        <li><label for="Mnumber">Mobile number:</label></li>
+        <li><input type="text" name="Mnumber"  placeholder="i.e: 02001025410" id="Mnumber"/></li>
+        <li><label for="email">Email:</label></li>
+        <li><input type="text" name="email" size="50" placeholder="i.e: John.Smith@mail.com" id="email"/></li>
+        <li><label for="desc">Inquiry:</label></li>
+        <li><textarea name="inquiry" id="desc"></textarea></li>
+        <li><input type="submit" name="submit" value="Submit" /></li>
+    </ul>
+</form>
 <!--footer section-->
 <footer>
     <div class="copyrights">
