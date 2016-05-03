@@ -107,8 +107,26 @@ form{
 }
 
 
-
-
+/*Hero Section Styles*/
+.hero{
+    margin: 10px;
+    background: cadetblue;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 57%;
+}
+.welcome-video{
+}
+.welcome-text{
+    text-align: center;
+    font-size: 1.2em;
+    margin: -255px;
+}
+.welcome-text span{
+    color: green;
+    font-size: 1.5em;
+}
+/*End Hero Section Styles*/
 
 
 
